@@ -164,3 +164,17 @@ footer a {
 footer span {
     color: var(--white);
 }
+
+@media (max-width: 375px) {
+    footer {
+        position: absolute;
+        bottom: 8rem;
+        left: 1rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    footer {
+        left: 34.5rem;
+    }
+}
